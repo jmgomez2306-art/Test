@@ -50,9 +50,9 @@ $baseFolder = "C:\Temp"
 
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $computerName = $env:COMPUTERNAME
-$outputFolder = Join-Path $baseFolder "HealthCheck_$computerName`_$timestamp"
+$outputFolder = Join-Path $baseFolder "EndpointLogs_$computerName`_$timestamp"
 $logsRootFolder = Join-Path $outputFolder "Logs"
-$outputFile = Join-Path $outputFolder "HealthCheckReport.txt"
+$outputFile = Join-Path $outputFolder "EndpointLogs.txt"
 $eventFile = Join-Path $outputFolder "FilteredEvents_Last24H.txt"
 $zipFile = "$outputFolder.zip"
 
