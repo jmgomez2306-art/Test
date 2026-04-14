@@ -265,6 +265,6 @@ catch {
 # Output
 # ==============================
 
-Write-Host "Reporte generated in: $outputFile"
-Write-Host "Log folder: $logsRootFolder"
-Write-Host "ZIP generated in: $zipFile"
+Write-Output "Reporte generated in: $outputFile"
+Write-Output "Log folder: $logsRootFolder"
+Write-Output "ZIP generated in: $zipFile"
